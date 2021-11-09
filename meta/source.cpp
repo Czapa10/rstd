@@ -371,7 +371,7 @@ Define rstd_Debug to 0 to turn off assertions and to make release only code be c
 
 #define rstd_Implementation
 #define rstd_Debug 1
-#include <FastMath.h>
+#include "rstd.h"
 */
 
 #include <cstdint>
@@ -4555,7 +4555,7 @@ rstd_defer(Unlock(_Mutex)); \
 #pragma comment(lib, "shell32.lib")
 
 #ifndef rstd_ExcludeDebugPrintingFunctions
-	#pragma comment(lib, "user32.lib")
+#pragma comment(lib, "user32.lib")
 #endif
 
 #include <windows.h>
