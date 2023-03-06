@@ -1,9 +1,11 @@
 # <h1 align="center"> rstd <br/>Reasonable/Robust/Rapid <br/>C++ Standard Library Replacement </h1>
 
 # General info
-I don't like api of default C++ standard library and the way its containers and other things allocate memory is too slow for my gamedev purposes. So I decided to create my own replacement for it.
-The library is very earily in development.
+I don't like API of the default C++ standard library and the way its containers and other things allocate memory is too slow for my gamedev purposes. So I decided to create my own replacement for it.
+The library is quite early in development so I wouldn't recommend you to use it just yet.
 It is sort of a side project for me and I make it along with my main, video game project. I add things here when I need them in my game.
+
+# The library uses c++20 features and as far as I know compiles only on MSVC.
 
 # Features
 ### For now library supports only windows !!!
@@ -34,6 +36,7 @@ rstd::singly_linked_list<some_struct> List2 = rstd::ShareArena(Arena);
 ### Simple random number generator
 ### String parsing utilities
 ### Optional
+### String view
   
 ### Defer
 You can wrap your code in rstd_defer function macro and it will execute at the end of scope.

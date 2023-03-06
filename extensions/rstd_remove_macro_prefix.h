@@ -13,6 +13,9 @@
 #define InvalidCodePath rstd_InvalidCodePath
 #define InvalidDefaultCase rstd_InvalidDefaultCase
 #define defer rstd_defer
+#define generic_string rstd_generic_string
+#define generic_string_view rstd_generic_string_view
+#define stringlike rstd_stringlike
 #define ForCString rstd_ForCString
 #define AllocateArenaZero rstd_AllocateArenaZero
 #define SubArena rstd_SubArena
@@ -26,3 +29,4 @@
 #define For rstd_For
 #define ForF32 rstd_ForF32
 #define ArrayCount rstd_ArrayCount
+#define ScopeLock rstd_ScopeLock
